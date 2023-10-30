@@ -1,0 +1,101 @@
+.add-btn{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(53, 198, 53);
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+
+}
+
+.add-post {
+    text-align: center;
+    background-color: #abeab0;
+    width: 80%;
+    min-height: 270px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 84px auto;
+}
+
+.add-text {
+    text-align: center;
+}
+
+.form-post  button{
+    width: 90px;
+    height: 35px;
+    background: rgb(72, 183, 62);
+    color: white;
+    border-radius: 13px;
+}
+
+.form-input input{
+    width: 70%;
+    height: 35px;
+    background-color: rgb(117, 240, 174);
+    border-radius: 11px;
+    border: 2px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 20px auto;
+}
+
+.form-input textarea{
+    width: 70%;
+    height: 70px;
+    background-color: rgb(117, 240, 174);
+    border-radius: 11px;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 20px auto;
+}
+
+.dislikes {
+    color: white;
+    background: rgb(183, 90, 62);
+    width: 90px;
+    height: 24px;
+    border-radius: 15px;
+}
+
+.likes {
+    color: white;
+    background: rgb(183, 88, 62);
+    width: 90px;
+    height: 24px;
+    border-radius: 15px;
+}
+
+.delete-btn {
+    color: white;
+    background: rgb(161, 183, 62);
+    width: 90px;
+    height: 24px;
+    border-radius: 20px;
+}
+
+.border:hover {
+    box-shadow: inset 0 0 0 23px #53ea93;
+  }
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 9px;
+}
+
+
+@media(max-width: 750px) {
+    header {
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 500px) {
+    header {
+        flex-direction: column;
+    }
+}
+
